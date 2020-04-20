@@ -1,14 +1,10 @@
 from PySide2.QtUiTools import QUiLoader
 from PySide2.QtCore import QFile
-from PySide2.QtWidgets import QApplication, QMainWindow, QDesktopWidget
-from PySide2 import QtWidgets, QtUiTools, QtCore
-from PySide2 import QtCore
+from PySide2.QtWidgets import QApplication, QDesktopWidget
+from PySide2 import QtCore, QtXml
 import logging
 import sys
-import time
-import math
 import numpy as np
-from math import sin, pi
 import pyqtgraph as pg
 
 
